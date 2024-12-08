@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url("/iconFonts/iconfontmusic/iconfont.ttf?t=1727459090587")
+    format("truetype");
+}
+
+.iconfontmusic {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 50%;
+  right: -16px;
+  transform: translateY(-50%);
+  z-index: 122;
+  cursor: pointer;
+  -webkit-animation: packupArrowFlow 1s ease infinite;
+  animation: packupArrowFlow 1s ease infinite;
+  height: 100%;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconfontmusics {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 50%;
+  right: -26px;
+  z-index: 122;
+  cursor: pointer;
+  -webkit-animation: packupArrowFlows 1s ease infinite;
+  animation: packupArrowFlows 1s ease infinite;
+  transform: translateY(-50%) rotate(180deg);
+  height: 100%;
+  display: flex;
+  width: 26px;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconfontmusic:before,
+.iconfontmusics:before {
+  content: "\e6c2";
+}
+
+@keyframes packupArrowFlow {
+  0% {
+    right: -16px;
+    color: #cdcdcd;
+  }
+  70% {
+    right: -26px;
+    color: #515151;
+  }
+}
+@-webkit-keyframes packupArrowFlow {
+  0% {
+    right: -16px;
+    color: #cdcdcd;
+  }
+  70% {
+    right: -26px;
+    color: #515151;
+  }
+}
+
+@keyframes packupArrowFlows {
+  0% {
+    right: -26px;
+    color: #cdcdcd;
+  }
+  70% {
+    right: -16px;
+    color: #515151;
+  }
+}
+@-webkit-keyframes packupArrowFlows {
+  0% {
+    right: -26px;
+    color: #cdcdcd;
+  }
+  70% {
+    right: -16px;
+    color: #515151;
+  }
+}
